@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="A portfolio page I made as an assignment during my first month of school at Mediainstitutet Stockholm">
+  <meta property="og:title" content="Nikolaj Nowicki CV & portfolio">
+  <meta property="og:type" content="webpage">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="js/bars.js" defer></script>
+  <script src="https://kit.fontawesome.com/1e0542d540.js" crossorigin="anonymous"></script>
+  <title>Nikolaj Nowicki CV</title>
+</head>
+
+<body>
+  <section class="page-one">
+    <h1 class="text-section">page one</h1>
+
+    <nav>
+
+      <span class="nav-text"><button onclick="location.href='#home'">Home</button></span>
+      <div class="divider"></div>
+      <span class="nav-text"><button onclick="location.href='#about'">About</button></span>
+      <div class="divider"></div>
+      <span class="nav-text"><button onclick="location.href='#contact'">Contact</button></span>
+    </nav>
+
+
+    <div id="home"></div>
+
+    <div class="header-box">
+      <div class="profile-box">
+        <div class="logo">
+          <img src="images/Logo-v2.png" class="logo-desktop" alt="Nikolaj Nowicki written in a logotype">
+          <img src="images/logo-mobile.png" class="logo-mobile" alt="Nikolaj Nowicki written in a logotype">
+        </div>
+
+        <h1>Aspiring Front End Developer</h1>
+
+        <div class="social-media">
+          <button aria-label="Github button" onclick="location.href='https://github.com/nikolajnowicki'"><span
+              class="icons"><i class="fa-brands fa-github fa-3x"></i></span></button>
+          <button aria-label="Mail me button" onclick="location.href='mailto:nikolaj.nowicki@hotmail.com'"><span
+              class="icons"><i class="fa-solid fa-envelope fa-3x"></i></span></button>
+          <button aria-label="Linked in button"
+            onclick="location.href='https://www.linkedin.com/in/nikolaj-nowicki-0a293a252/'"><span class="icons"><i
+                class="fa-brands fa-linkedin fa-3x"></i></span></button>
+        </div>
+
+        <div class="scroll-text"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-two">
+    <div id="about"></div>
+
+    <div class="general-info-box">
+      <div class="astro-box">
+        <img src="images/astro-mobile.png" class="astro-mobile" alt="Astronaut holding out his hands.">
+        <img src="images/astro.png" class="astro" alt="Astronaut holding out his hands.">
+
+        <div class="info-box">
+          <div class="box-header">
+            <h2>Short Introduction</h2>
+          </div>
+          <p class="header-divider">
+            I am a driven and down to earth person who loves learning new
+            things and hone the techniques I have already mastered.
+          </p>
+          <p>
+            My long term goal is to become a Full Stack Developer, and to
+            achieve that goal I am willing to take on any hardships that come
+            my way.
+          </p>
+          <!-- <p>At the moment I am taking My first step towards my goal by finnishing a 2 year curriculum designated to teaching me the fundementals needed to work as a Front End Develoiper.</p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-three">
+
+    <div class="grid-box">
+      <div class="edu-box">
+
+        <div class="page-three-box-left">
+          <div class="box-header">
+            <h2>Education</h2>
+          </div>
+
+          <h3>Front End Developer</h3>
+          <p class="edu-text">2022 - 2024 | Medieinstitutet Stockholm</p>
+
+          <h3>Html & CSS Fundementals</h3>
+          <p class="edu-text2">2021 - 2022 | FreeCodeCamp</p>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <div class="page-three-box-center">
+          <div class="box-header">
+            <h2>Skill Set</h2>
+          </div>
+
+          <table class="skills">
+            <tr>
+              <td>Html</td>
+
+              <td>
+                <div class="skills-container" data-maxpoints="10"></div>
+                <div class="progress-container">
+                  <div class="progress-bar html" data-points="9"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+
+              <td>
+                <div class="skills-container" data-maxpoints="10"></div>
+                <div class="progress-container">
+                  <div class="progress-bar css" data-points="6"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>JS</td>
+
+              <td>
+                <div class="skills-container" data-maxpoints="10"></div>
+                <div class="progress-container">
+                  <div class="progress-bar js" data-points="4"></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>mySQL</td>
+
+              <td>
+                <div class="skills-container" data-maxpoints="10"></div>
+                <div class="progress-container">
+                  <div class="progress-bar mysql" data-points="3"></div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="language-box">
+        <div class="page-three-box-right">
+          <div class="box-header">
+            <h2>Languages</h2>
+          </div>
+
+          <table class="skills">
+            <tr>
+              <td>Swdish</td>
+              <td></td>
+              <td class="language-text">Fluent</td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td></td>
+              <td class="language-text">Good in speech & writing</td>
+            </tr>
+            <tr>
+              <td>Danish</td>
+              <td></td>
+              <td class="language-text">Good in speech & writing</td>
+            </tr>
+            <tr>
+              <td>Polish</td>
+              <td></td>
+              <td class="language-text">Good in speech</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-four">
+    <h1 class="text-section">page four</h1>
+
+    <footer>
+      <div id="contact"></div>
+      <h3>Contact Information</h3>
+      <ul class="footer-list">
+        <li><i class="fa-solid fa-user"></i><span class="list-span"> -</span>Nikolaj Nowicki</li>
+        <li><i class="fa-solid fa-location-dot"></i><span class="list-span"> -</span>Sweden | Helsingborg</li>
+        <li><i class="fa-solid fa-envelope"></i><span class="list-span">-</span><a
+            href="mailto:nikolaj.nowicki@hotmail.com">nikolaj.nowicki@hotmail.com</a></li>
+        <li><i class="fa-brands fa-github"></i><span class="list-span">-</span><a
+            href="https://github.com/nikolajnowicki">Github</a></li>
+        <li><i class="fa-brands fa-linkedin"></i><span class="list-span">-</span><a
+            href="https://www.linkedin.com/in/nikolaj-nowicki-0a293a252/">Linkedin</a></li>
+      </ul>
+
+
+    </footer>
+
+  </section>
+</body>
+
+</html>
