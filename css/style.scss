@@ -711,10 +711,11 @@ table.skills {
 
 // ----- Footer ----- //
 footer {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: column;
   height: 45vh;
+  width: 100%;
   background-color: rgb(28, 7, 36);
   top: 65%;
 }
@@ -942,10 +943,11 @@ a:hover {
 
   // ----- Footer ----- //
   footer {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     height: 27vh;
+    width: 100%;
     background-color: rgb(28, 7, 36);
     top: 75%;
   }
